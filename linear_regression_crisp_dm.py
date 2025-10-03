@@ -118,7 +118,7 @@ def run_crisp_dm_linear_regression():
     # The true line
     plt.plot(X, a_true * X + b_true, color='red', linewidth=3, label=f'True Line (a={a_true}, b={b_true})')
     # The model's learned line
-    plt.plot(X, model.predict(X_reshaped), color='green', linewidth=3, label=f'Model's Prediction (a={model.coef_[0]:.2f}, b={model.intercept_:.2f})')
+    plt.plot(X, model.predict(X_reshaped), color='green', linewidth=3, label=f"Model's Prediction (a={model.coef_[0]:.2f}, b={model.intercept_:.2f})")
     
     plt.title('Evaluation: Model Prediction vs. True Line')
     plt.xlabel('X (Feature)')
