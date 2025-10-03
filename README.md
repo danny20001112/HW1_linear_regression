@@ -1,8 +1,7 @@
 # CRISP-DM 線性迴歸 Streamlit 應用
 
-這是一個互動式的 Web 應用程式，旨在透過一個簡單的線性迴歸問題，來演示數據科學專案的標準流程 **CRISP-DM** (跨行業數據探勘標準流程)。
-
-使用者可以透過圖形介面即時調整生成數據的參數，並觀察模型如何根據不同的數據特性進行學習和預測。
+🚀 線上應用程式 (Live App)
+[點擊這裡體驗應用程式](https://hw1linearregression-kj46g9dxksknuccz54fo4u.streamlit.app/)
 
 ## ✨ 功能
 
